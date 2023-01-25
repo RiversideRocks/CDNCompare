@@ -23,3 +23,12 @@ Compare distance to CDN POPs from your current location.
 
 ## Montevideo, Uruguay
 ![image](https://user-images.githubusercontent.com/59586759/214690431-94efbbf6-dee9-4a5e-b1ad-f2894c1f4bef.png)
+
+## Port Luis, Mauritius
+![image](https://user-images.githubusercontent.com/59586759/214690966-0d223db5-ef91-45f1-924e-872d104dff6b.png)
+
+## Libreville, Gabon
+![image](https://user-images.githubusercontent.com/59586759/214692162-3b9e73ea-9c36-4f9b-a01a-d506acad1672.png)
+
+## Kathmandu, Nepal
+![image](https://user-images.githubusercontent.com/59586759/214693505-8d856cb9-7e30-4e8d-88a2-23604a230906.png)
