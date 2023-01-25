@@ -28,13 +28,3 @@ def cacheFly(header):
     for x in range(len(header)):
         if header[x] == ".":
             return [header[x+1:x+4].upper()]
-
-#print(cacheFly(requests.get("https://www.cachefly.com").headers["x-cf1"]))
-
-#print(fastly("cache-bos4625-BOS"))
-#print(fastly(requests.get("https://cdn.glitch.global").headers["X-served-by"], True))
-#print(fastly(requests.get("https://www.fastly.com").headers["X-served-by"], True))
-#print(fastly(requests.get("https://c.tile.osm.org").headers["X-served-by"], True))
-#print(cloudflare(requests.get("https://www.check-host.net").headers["Cf-ray"]))
-#print(cloudflare(requests.get("https://cloudflare.com").headers["Cf-ray"]))
-#print(cloudfront(requests.get("https://desmos.com").headers["x-amz-cf-pop"]))

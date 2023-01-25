@@ -14,5 +14,3 @@ def airport(code):
 def yourCordinates():
     r = requests.get("https://ipapi.co/json")
     return [r.json()["latitude"], r.json()["longitude"]]
-
-#print(airport("BFI"))
