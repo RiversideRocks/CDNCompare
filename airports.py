@@ -1,5 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
+import sys
 
 def airport(code):
     soup = BeautifulSoup(requests.get("https://www.travelmath.com/airport/" + code).text, 'html.parser')
@@ -13,4 +14,7 @@ def airport(code):
 
 def yourCordinates():
     r = requests.get("https://ipapi.co/json")
+    if r.headers["Content-type"] != "application/json":
+        print("GeoLocation API (ipapi.co) failed. Try again later.")
+        sys.exit()
     return [r.json()["latitude"], r.json()["longitude"]]
