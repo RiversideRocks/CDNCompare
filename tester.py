@@ -3,6 +3,7 @@ from airports import airport, yourCordinates
 from localeparser import *
 from colorama import Fore, Back, Style
 
+yc = yourCordinates()
 
 # should be EWR or LGA
 def fastlyDistance():
@@ -11,9 +12,6 @@ def fastlyDistance():
     # lat, long
     air = airport(fastlyLocation[0])
 
-    # lat, long
-    yc = yourCordinates()
-
     return {"provider": "Fastly \t \t \t \t", "airport": fastlyLocation[0], "distance": haversine(air[0], air[1], yc[0], yc[1])}
 
 def cloudflareDistance():
@@ -21,7 +19,6 @@ def cloudflareDistance():
 
     air = airport(cloudflareLocation[0])
 
-    yc = yourCordinates()
     return {"provider": "Cloudflare \t \t \t", "airport": cloudflareLocation[0], "distance": haversine(air[0], air[1], yc[0], yc[1])}
 
 def cloudflareFreeDistance():
@@ -29,21 +26,18 @@ def cloudflareFreeDistance():
 
     air = airport(cloudflareLocation[0])
 
-    yc = yourCordinates()
     return {"provider": "Cloudflare (free) \t \t", "airport": cloudflareLocation[0], "distance": haversine(air[0], air[1], yc[0], yc[1])}
 
 def cloudfrontDistance():
     cloudfrontLocation = cloudfront(requests.get("https://desmos.com").headers["x-amz-cf-pop"])
     air = airport(cloudfrontLocation[0])
 
-    yc = yourCordinates()
     return {"provider": "CloudFront \t \t \t", "airport": cloudfrontLocation[0], "distance": haversine(air[0], air[1], yc[0], yc[1])}
 
 def cacheFlyDistance():
     cacheFlyLocation = cacheFly(requests.get("https://www.cachefly.com").headers["x-cf1"])
     air = airport(cacheFlyLocation[0])
 
-    yc = yourCordinates()
     return {"provider": "CacheFly \t \t \t", "airport": cacheFlyLocation[0], "distance": haversine(air[0], air[1], yc[0], yc[1])}
 
 def fancyPrintResults():
