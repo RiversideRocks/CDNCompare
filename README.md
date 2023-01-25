@@ -20,3 +20,6 @@ Compare distance to CDN POPs from your current location.
 
 ### Amsterdam, Netherlands
 ![image](https://user-images.githubusercontent.com/59586759/214636816-b3bc7f69-b95d-4528-85ee-fccb6ade488a.png)
+
+## Montevideo, Uruguay
+![image](https://user-images.githubusercontent.com/59586759/214690431-94efbbf6-dee9-4a5e-b1ad-f2894c1f4bef.png)
