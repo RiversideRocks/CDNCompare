@@ -32,3 +32,15 @@ Compare distance to CDN POPs from your current location.
 
 ## Kathmandu, Nepal
 ![image](https://user-images.githubusercontent.com/59586759/214693505-8d856cb9-7e30-4e8d-88a2-23604a230906.png)
+
+## Tallinn, Estonia
+![image](https://user-images.githubusercontent.com/59586759/214707273-a16b550e-ff9f-476b-80f8-5c863be073f0.png)
+
+## Tel Aviv, Israel
+![image](https://user-images.githubusercontent.com/59586759/214707432-9710c3d3-d36b-4070-aff8-c7b7e7dda7d3.png)
+
+## Auckland, New Zealand
+![image](https://user-images.githubusercontent.com/59586759/214707573-e5957188-9f9f-4dbc-81d5-c2fcef4b3921.png)
+
+## Dubai, United Arab Emirates
+![image](https://user-images.githubusercontent.com/59586759/214707907-2aaa8b20-bf2a-49d3-981a-39a88a73d4a8.png)
