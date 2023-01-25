@@ -1,5 +1,8 @@
 # CDNCompare
-Compare distance to CDN POPs from your current location
+Compare distance to CDN POPs from your current location.
+
+## Usage
+`python3 cdn.py`
 
 ## Examples
 
@@ -11,3 +14,9 @@ Compare distance to CDN POPs from your current location
 
 ### Sydney, Austrailia
 ![image](https://user-images.githubusercontent.com/59586759/214630837-ba146e5d-f6bf-4477-bca0-ab126e8c3d36.png)
+
+### Vienna, Austria
+![image](https://user-images.githubusercontent.com/59586759/214636093-ed069bb2-608a-40bf-a3c2-736adad15c1b.png)
+
+### Amsterdam, Netherlands
+![image](https://user-images.githubusercontent.com/59586759/214636816-b3bc7f69-b95d-4528-85ee-fccb6ade488a.png)
